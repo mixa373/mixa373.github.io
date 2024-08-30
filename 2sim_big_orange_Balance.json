@@ -1,0 +1,420 @@
+﻿{
+  "WatchFace_Info": {
+    "DeviceName": "Balance",
+    "WatchFaceId": 6623469,
+    "Preview": "Preview"
+  },
+  "ScreenNormal": {
+    "Background": {
+      "visible": true,
+      "BackgroundImage": {
+        "position": -1,
+        "visible": true,
+        "show_level": "ONLY_NORMAL",
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 480,
+        "src": "0002"
+      }
+    },
+    "Elements": [
+      {
+        "elementName": "ElementDistance",
+        "visible": true,
+        "Number": {
+          "position": 5,
+          "visible": true,
+          "align": "LEFT",
+          "show_level": "",
+          "imageX": 259,
+          "imageY": 401,
+          "space": 0,
+          "zero": false,
+          "img_First": "0039",
+          "unit": "",
+          "imperial_unit": "",
+          "icon": "",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "invalid_image": "",
+          "dot_image": "",
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        },
+        "Number_Font": {
+          "position": 4,
+          "visible": false,
+          "show_level": "",
+          "x": 0,
+          "y": 0,
+          "w": 150,
+          "h": 30,
+          "color": "0xFFFF8C00",
+          "color_2": "0xFFFF0000",
+          "use_color_2": false,
+          "align_h": "LEFT",
+          "align_v": "TOP",
+          "text_size": 20,
+          "text_style": "ELLIPSIS",
+          "line_space": 0,
+          "char_space": 0,
+          "font": "",
+          "padding": false,
+          "unit_type": 0,
+          "unit_string": "",
+          "unit_end": false,
+          "centreHorizontally": false,
+          "centreVertically": false
+        },
+        "Text_rotation": {
+          "position": 3,
+          "visible": false,
+          "align": "LEFT",
+          "show_level": "",
+          "imageX": 0,
+          "imageY": 0,
+          "space": 0,
+          "zero": false,
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        },
+        "Text_circle": {
+          "position": 2,
+          "visible": false,
+          "show_level": "",
+          "circle_center_X": 0,
+          "circle_center_Y": 0,
+          "radius": 100,
+          "angle": 0,
+          "char_space_angle": 0,
+          "zero": false,
+          "vertical_alignment": "BOTTOM",
+          "horizontal_alignment": "LEFT",
+          "reverse_direction": false,
+          "unit_in_alignment": true
+        },
+        "Icon": {
+          "position": 1,
+          "visible": false,
+          "show_level": "",
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "elementName": "ElementStatuses",
+        "visible": true,
+        "Alarm": {
+          "position": 3,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "x": 132,
+          "y": 106,
+          "src": "0025",
+          "type": "Alarm"
+        },
+        "Bluetooth": {
+          "position": 2,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "x": 84,
+          "y": 103,
+          "src": "0024",
+          "type": "Bluetooth"
+        },
+        "DND": {
+          "position": 1,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "x": 179,
+          "y": 106,
+          "src": "0026",
+          "type": "DND"
+        }
+      },
+      {
+        "elementName": "ElementWeather_v2",
+        "visible": true,
+        "Group_Current": {
+          "position": 1,
+          "Number": {
+            "position": -1,
+            "visible": true,
+            "align": "RIGHT",
+            "show_level": "",
+            "imageX": 122,
+            "imageY": 50,
+            "space": 1,
+            "zero": false,
+            "img_First": "0146",
+            "unit": "0158",
+            "iconPosX": 0,
+            "iconPosY": 0,
+            "negative_image": "0156",
+            "invalid_image": "0156",
+            "angle": 0,
+            "follow": false,
+            "unit_in_alignment": false
+          }
+        },
+        "Images": {
+          "position": 2,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "",
+          "X": 211,
+          "Y": 30,
+          "img_First": "0117",
+          "image_length": 29
+        }
+      },
+      {
+        "elementName": "ElementSteps",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "LEFT",
+          "show_level": "",
+          "imageX": 259,
+          "imageY": 353,
+          "space": 2,
+          "zero": false,
+          "img_First": "0039",
+          "unit": "",
+          "imperial_unit": "",
+          "icon": "",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "invalid_image": "",
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        }
+      },
+      {
+        "elementName": "ElementHeart",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "CENTER_H",
+          "show_level": "",
+          "imageX": 66,
+          "imageY": 353,
+          "space": 2,
+          "zero": false,
+          "img_First": "0039",
+          "unit": "",
+          "imperial_unit": "",
+          "icon": "",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "invalid_image": "",
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        }
+      },
+      {
+        "elementName": "DateMonth",
+        "visible": true,
+        "Images": {
+          "position": 1,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "ONLY_NORMAL",
+          "X": 297,
+          "Y": 142,
+          "img_First": "0027",
+          "image_length": 0,
+          "type": "MONTH"
+        }
+      },
+      {
+        "elementName": "DateDay",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "CENTER_H",
+          "show_level": "ONLY_NORMAL",
+          "imageX": 204,
+          "imageY": 143,
+          "space": 5,
+          "zero": true,
+          "img_First": "0039",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false,
+          "type": "DAY"
+        }
+      },
+      {
+        "elementName": "DateWeek",
+        "visible": true,
+        "Images": {
+          "position": 1,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "ONLY_NORMAL",
+          "X": 78,
+          "Y": 142,
+          "img_First": "0049",
+          "image_length": 0
+        }
+      },
+      {
+        "elementName": "ElementBattery",
+        "visible": true,
+        "Images": {
+          "position": 2,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "",
+          "X": 299,
+          "Y": 54,
+          "img_First": "z01",
+          "image_length": 10
+        },
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "RIGHT",
+          "show_level": "",
+          "imageX": 254,
+          "imageY": 89,
+          "space": 1,
+          "zero": false,
+          "img_First": "0066",
+          "unit": "",
+          "imperial_unit": "",
+          "icon": "",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "invalid_image": "",
+          "dot_image": "",
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false
+        }
+      },
+      {
+        "elementName": "DigitalTime_v2",
+        "visible": true,
+        "Group_Minute": {
+          "position": 2,
+          "Number": {
+            "position": -1,
+            "visible": true,
+            "align": "CENTER_H",
+            "show_level": "ONLY_NORMAL",
+            "imageX": 266,
+            "imageY": 185,
+            "space": 5,
+            "zero": true,
+            "img_First": "0003",
+            "iconPosX": 0,
+            "iconPosY": 0,
+            "angle": 0,
+            "follow": false,
+            "unit_in_alignment": false
+          }
+        },
+        "Group_Hour": {
+          "position": 1,
+          "Number": {
+            "position": -1,
+            "visible": true,
+            "align": "CENTER_H",
+            "show_level": "ONLY_NORMAL",
+            "imageX": 32,
+            "imageY": 185,
+            "space": 5,
+            "zero": true,
+            "img_First": "0003",
+            "iconPosX": 0,
+            "iconPosY": 0,
+            "angle": 0,
+            "follow": false,
+            "unit_in_alignment": false
+          }
+        }
+      },
+      {
+        "elementName": "AnalogTime",
+        "visible": true,
+        "show_level": "",
+        "Second": {
+          "position": 1,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "src": "0023",
+          "center_x": 240,
+          "center_y": 240,
+          "pos_x": 175,
+          "pos_y": 239,
+          "start_angle": 0,
+          "end_angle": 360,
+          "cover_x": 0,
+          "cover_y": 0,
+          "scale_x": 0,
+          "scale_y": 0
+        }
+      }
+    ]
+  },
+  "ScreenAOD": {
+    "Elements": [
+      {
+        "elementName": "DigitalTime_v2",
+        "visible": true,
+        "Group_Minute": {
+          "position": 2,
+          "Number": {
+            "position": -1,
+            "visible": true,
+            "align": "CENTER_H",
+            "show_level": "ONLY_AOD",
+            "imageX": 266,
+            "imageY": 185,
+            "space": 5,
+            "zero": true,
+            "img_First": "0003",
+            "iconPosX": 0,
+            "iconPosY": 0,
+            "angle": 0,
+            "follow": false,
+            "unit_in_alignment": false
+          }
+        },
+        "Group_Hour": {
+          "position": 1,
+          "Number": {
+            "position": -1,
+            "visible": true,
+            "align": "CENTER_H",
+            "show_level": "ONLY_AOD",
+            "imageX": 32,
+            "imageY": 185,
+            "space": 5,
+            "zero": true,
+            "img_First": "0003",
+            "iconPosX": 0,
+            "iconPosY": 0,
+            "angle": 0,
+            "follow": false,
+            "unit_in_alignment": false
+          }
+        }
+      }
+    ]
+  }
+}
